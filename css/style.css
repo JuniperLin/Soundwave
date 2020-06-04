@@ -297,14 +297,9 @@ body {
     left: 0;
     overflow: hidden;
     transform: translateX(100%);
-    display: grid;
-    grid-template-rows: 85% 1fr 15%;
     z-index: 0;
   }
-  .main-nav li:nth-child(1) {
-    align-self: flex-end;
-    margin-bottom: 50px;
-  }
+
   .main-nav li {
     position: relative;
     margin: 0 auto;
