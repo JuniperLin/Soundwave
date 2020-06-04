@@ -29,7 +29,7 @@
   margin-bottom: 2rem;
   cursor: pointer;
   transition: transform 0.3s ease;
-  border-radius: 3px;
+  border-radius: 15px;
 }
 
 .icon img {
@@ -87,8 +87,12 @@
 @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
   .icon-section {
     justify-content: space-around;
+    padding: 0 20px;
   }
   .discover-main-section .covers-img {
     margin: 0 0 20px 0;
+  }
+  .title {
+    margin-top: 1em;
   }
 }

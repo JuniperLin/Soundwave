@@ -205,6 +205,9 @@ body {
   .main-nav ul {
     display: block;
   }
+  .main-nav a {
+    padding: 0 1rem 0 1rem;
+  }
   .title {
     text-align: center;
   }

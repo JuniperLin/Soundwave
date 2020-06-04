@@ -9,10 +9,22 @@
   font-size: 3.5em;
   font-weight: bold;
   margin: 0;
+  cursor: pointer;
+}
+.join-text p {
+  display: inline-block;
+}
+p.m-left {
+  margin-left: -15px;
 }
 
-.accent-text {
-  color: #bc3a80;
+p:hover {
+  color: #48cfad;
+  transition: all 0.5s;
+}
+
+p.accent-text {
+  color: #ed5565;
 }
 
 .join-form {
@@ -149,8 +161,41 @@
   }
 }
 
-@media (max-width: 500px) {
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
   .join-text {
     text-align: center;
+    line-height: 4.5rem;
+  }
+  .join-page-circle1 {
+    width: 30vw;
+    height: 30vw;
+    bottom: 10vh;
+    left: 10vw;
+  }
+  @keyframes bigScale {
+    0% {
+      transform: scale(2);
+    }
+    50% {
+      transform: scale(2.5);
+    }
+    100% {
+      transform: scale(2);
+    }
+  }
+  .join-page-circle2 {
+    top: 0;
+    left: 30vw;
+  }
+  @keyframes smallScale {
+    0% {
+      transform: scale(2);
+    }
+    50% {
+      transform: scale(2.5);
+    }
+    100% {
+      transform: scale(2);
+    }
   }
 }
