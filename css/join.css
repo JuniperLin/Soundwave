@@ -64,19 +64,6 @@ p.accent-text {
   border-color: #596da0;
 }
 
-@media (max-width: 900px) {
-  .join-main-section {
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .join-form {
-    width: 80vw;
-    max-width: inherit;
-    margin: 2rem 0;
-  }
-}
-
 .join-page-circle1 {
   position: absolute;
   overflow: hidden;
@@ -165,6 +152,17 @@ p.accent-text {
   .join-text {
     text-align: center;
     line-height: 4.5rem;
+    padding: 0 1em;
+    position: relative;
+  }
+  .join-text p {
+    margin: 0;
+  }
+  p.m-left {
+    margin-left: -15px;
+  }
+  .join-form {
+    padding: 2rem 2rem;
   }
   .join-page-circle1 {
     width: 30vw;
@@ -197,5 +195,8 @@ p.accent-text {
     100% {
       transform: scale(2);
     }
+  }
+  .footer-nav a {
+    position: static;
   }
 }

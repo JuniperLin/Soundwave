@@ -95,4 +95,7 @@
   .title {
     margin-top: 1em;
   }
+  .footer-nav a {
+    position: static;
+  }
 }
